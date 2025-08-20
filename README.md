@@ -77,6 +77,17 @@ This template includes pre-configured MCP servers:
 - **Sequential Thinking:** Advanced problem-solving
 - **Git:** Version control operations
 
+## Documentation
+
+For comprehensive information about how these rules work and how to use them effectively, see the **[Documentation](./docs/)** folder. The documentation includes:
+
+- **Rules Overview** - Understanding the rule system architecture
+- **Core Rules** - Essential behavioral patterns and protocols
+- **Task Protocols** - Specialized execution workflows
+- **Steering Documents** - Document generation templates
+- **Usage Examples** - Practical implementation scenarios
+- **Customization Guide** - Adapting rules for your team
+
 ## Customization Guide
 
 ### Adding New Rules
