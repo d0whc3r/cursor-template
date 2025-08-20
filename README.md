@@ -1,6 +1,6 @@
 # Cursor Rules Template
 
-> **⚠️ IMPORTANT:** This README is for the template repository only. It will NOT appear in projects created from this template.
+> **⚠️ IMPORTANT:** This README is for the template repository only.
 
 ## What is this?
 
