@@ -1,0 +1,36 @@
+---
+alwaysApply: false
+---
+
+# Structure
+
+## Intent
+
+Generate a **Structure Steering Document**.  
+This rule defines structure for **team and organizational alignment**.
+
+## Boundaries
+
+- Do not include product strategy (product.md).
+- Do not cover technical architecture or tooling (tech.md).
+- All content must be **based strictly on the project files context**.
+
+## Instructions
+
+- Always begin with **Title, Author, Date, Version**.
+- Required sections:
+  - **Executive Summary**: purpose of structure change/review.
+  - **Current Organization Setup**: existing roles, teams, reporting lines (from context).
+  - **Challenges & Pain Points**: issues recorded in project files.
+  - **Proposed Structure**: new org chart, roles, cross-team interactions.
+  - **Benefits & Rationale**: improvements backed by context evidence.
+  - **Risks & Mitigation**: concerns derived from available documentation.
+  - **Implementation Plan**: steps, timeline, communication approach.
+  - **Next Steps & Owners**: accountable roles defined in context.
+- Use diagrams or charts where relevant.
+- If context does not contain enough data, flag the gap explicitly.
+
+## Tone
+
+Professional, people-oriented, constructive.  
+Goal: **align teams and leadership** on structure changes based on project context.

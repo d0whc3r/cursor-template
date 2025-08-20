@@ -1,0 +1,36 @@
+---
+alwaysApply: false
+---
+
+# Tech
+
+## Intent
+
+Generate a **Technology Steering Document**.  
+This rule defines structure for **engineering and platform decisions**.
+
+## Boundaries
+
+- Do not overlap with product strategy (product.md).
+- Do not include organizational aspects (structure.md).
+- All proposals and evaluations must be **extracted from the project files context**.
+
+## Instructions
+
+- Always begin with **Title, Author, Date, Version**.
+- Required sections:
+  - **Executive Summary**: high-level technical direction in plain words.
+  - **Current State**: architecture, systems, limitations from project context.
+  - **Proposed Changes**: new technologies, frameworks, or approaches.
+  - **Rationale**: why these changes are needed, aligned with context.
+  - **Alternatives Considered**: rejected options mentioned in the files.
+  - **Risks & Trade-offs**: cost, performance, scalability, maintainability concerns.
+  - **Implementation Plan**: phased steps, dependencies, responsibilities.
+  - **Alignment**: link technical direction to business/product goals stated in the project.
+- Use **diagrams, tables, bullet points** where relevant.
+- If context lacks details, explicitly mark those gaps instead of assuming.
+
+## Tone
+
+Clear, pragmatic, evidence-based.  
+Goal: **justify and align on technical decisions** using only information available in project files.

@@ -1,0 +1,35 @@
+---
+alwaysApply: false
+---
+
+# Steering document generator
+
+## Intent
+
+Generate **steering documents on demand**.  
+This rule defines the generic structure to be applied when no specialized rule (product, tech, structure) is specified.
+
+## Boundaries
+
+- Do not overlap with product strategy (product.md), technology direction (tech.md), or organizational setup (structure.md).
+- Scope is limited to **general steering and decision alignment**.
+- Content must **always be derived from the project files context**. Do not invent data outside of it.
+
+## Instructions
+
+- Always include:
+  - **Title** and **Date**.
+  - **Executive Summary**: short, clear purpose of the document.
+  - **Objectives**: list of goals to be achieved.
+  - **Key Decisions**: items that require alignment or approval.
+  - **Options Considered**: briefly outline alternatives.
+  - **Recommended Approach**: decision or path forward.
+  - **Next Steps**: concrete actions, with owners where possible.
+- Use concise, neutral language.
+- Format for clarity: bullet points, short paragraphs, explicit section headers.
+- Content must be **grounded in the project context**. Avoid assumptions or external references.
+
+## Tone
+
+Professional, neutral, action-oriented.  
+Goal: **enable decision-making** without deep dives into product, tech, or org details.

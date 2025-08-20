@@ -1,0 +1,36 @@
+---
+alwaysApply: false
+---
+
+# Product
+
+## Intent
+
+Generate a **Product Steering Document**.  
+This rule defines structure for **product vision, market alignment, and strategy**.
+
+## Boundaries
+
+- Must not include technical implementation details (covered by tech.md).
+- Must not cover organizational setup (covered by structure.md).
+- All insights and recommendations must be **based on the information available in the project files**.
+
+## Instructions
+
+- Always begin with **Title, Author, Date, Version**.
+- Required sections:
+  - **Executive Summary**: high-level direction of the product.
+  - **Market Context**: trends, competitors, opportunities, from project context if available.
+  - **Customer Insights**: personas, needs, pain points documented in files.
+  - **Product Vision**: long-term aspirations.
+  - **Strategic Goals**: 6–18 month goals.
+  - **Roadmap & Milestones**: high-level feature/release timeline.
+  - **Risks & Dependencies**: market, resource, regulatory risks found in context.
+  - **Next Steps & Owners**: actions with accountable roles.
+- Use **evidence and data** from project documentation (research, metrics, feedback).
+- Avoid guessing. If data is missing, state it clearly as a gap.
+
+## Tone
+
+Strategic, customer-centric, forward-looking.  
+Goal: **align stakeholders and leadership** on product direction using only project context.
