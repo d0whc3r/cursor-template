@@ -20,7 +20,7 @@ Documentation for the fundamental AI behavior rules based on the [Autonomous Age
 
 Documentation for rules specific to this template repository:
 
-- **[Steering Documents](./template-rules/steering-documents.md)** - Document generation templates
+- **[AI Operational Frameworks](./template-rules/steering-documents.md)** - AI-driven document generation frameworks
 
 ### **General Documentation**
 
@@ -54,7 +54,7 @@ This framework is built on five foundational principles:
 
 ### **Template-Specific Rules**
 
-- **Steering Rules** - Document generation templates for this template
+- **AI Operational Frameworks** - AI-driven document generation frameworks for this template
 
 ---
 

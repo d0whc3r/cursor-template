@@ -17,11 +17,11 @@ A **GitHub template repository** that provides standardized AI development rules
 │   ├── request.mdc           # Standard task execution protocol
 │   ├── refresh.mdc           # Deep bug diagnosis protocol
 │   ├── retro.mdc             # Post-session retrospective protocol
-│   └── steering/             # Specialized steering document generators
-│       ├── generator.mdc     # Generic steering document structure
-│       ├── product.mdc       # Product strategy steering
-│       ├── structure.mdc     # Organizational structure steering
-│       └── tech.mdc          # Technical architecture steering
+│   └── steering/             # AI operational frameworks for document generation
+│       ├── generator.mdc     # AI document generation framework
+│       ├── product.mdc       # AI product strategy framework
+│       ├── structure.mdc     # AI development structure framework
+│       └── tech.mdc          # AI technology decision framework
 └── mcp.json                  # MCP server configuration
 ```
 
@@ -36,7 +36,7 @@ A **GitHub template repository** that provides standardized AI development rules
 ### 2. Customize Rules (Optional)
 
 - Modify `.cursor/rules/*.mdc` files to match your team's needs
-- Add/remove steering document types
+- Add/remove AI operational framework types
 - Adjust MCP server configurations
 
 ### 3. Start Development
@@ -84,7 +84,7 @@ For comprehensive information about how these rules work and how to use them eff
 - **Rules Overview** - Understanding the rule system architecture
 - **Core Rules** - Essential behavioral patterns and protocols
 - **Task Protocols** - Specialized execution workflows
-- **Steering Documents** - Document generation templates
+- **AI Operational Frameworks** - AI-driven document generation frameworks
 - **Usage Examples** - Practical implementation scenarios
 - **Customization Guide** - Adapting rules for your team
 
@@ -106,7 +106,7 @@ For comprehensive information about how these rules work and how to use them eff
 
 - **Always Applied:** Core behavioral patterns
 - **Conditional:** Context-specific protocols
-- **Steering:** Document generation templates
+- **AI Frameworks:** Operational frameworks for document generation
 
 ## Best Practices
 

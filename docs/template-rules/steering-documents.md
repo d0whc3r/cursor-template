@@ -1,25 +1,25 @@
-# Steering Documents
+# AI Operational Frameworks
 
 ## Overview
 
-Steering documents are specialized rule sets that generate structured documents for decision-making and alignment. They provide templates for creating professional, consistent documents across different domains.
+AI Operational Frameworks are specialized AI-driven systems that generate structured documents for decision-making and alignment. These frameworks represent the AI assistant's operational methodologies for creating professional, consistent documents across different domains.
 
 ## Purpose
 
-Steering document rules transform the AI into a document generation specialist, creating structured outputs that:
+AI Operational Framework rules transform the AI into a specialized document generation system, creating structured outputs that:
 
-- **Align teams** on strategic decisions
-- **Document technical architecture** decisions
-- **Define organizational structures** and processes
-- **Standardize** document formats across projects
+- **Align teams** on strategic decisions through evidence-based analysis
+- **Document technical architecture** decisions with clear rationale
+- **Define organizational structures** and processes based on project context
+- **Standardize** document formats using AI-driven consistency
 
-## Rule Categories
+## AI Framework Categories
 
-### **1. Generic Steering Document (`generator.mdc`)**
+### **1. AI Document Generation Framework (`generator.mdc`)**
 
 #### **Purpose**
 
-General steering and decision alignment when no specialized rule applies.
+The AI assistant's operational framework for general document generation and decision alignment when no specialized framework applies.
 
 #### **Scope**
 
@@ -76,11 +76,11 @@ PostgreSQL as primary database with MongoDB for specific document-heavy services
 - Development team to begin implementation
 ```
 
-### **2. Product Strategy Steering (`product.mdc`)**
+### **2. AI Product Strategy Framework (`product.mdc`)**
 
 #### **Purpose**
 
-Generate product strategy documents for feature planning and roadmap development.
+The AI assistant's operational framework for generating product strategy documents for feature planning and roadmap development.
 
 #### **Scope**
 
@@ -159,11 +159,11 @@ Develop comprehensive mobile app strategy to increase user engagement and market
 - App store ratings and reviews
 ```
 
-### **3. Technical Architecture Steering (`tech.mdc`)**
+### **3. AI Technology Decision Framework (`tech.mdc`)**
 
 #### **Purpose**
 
-Generate technical architecture documents for system design and technology decisions.
+The AI assistant's operational framework for generating technical architecture documents for system design and technology decisions.
 
 #### **Scope**
 
@@ -244,11 +244,11 @@ Design and implement microservices architecture to replace monolithic applicatio
 - Successful migration of all core services
 ```
 
-### **4. Organizational Structure Steering (`structure.mdc`)**
+### **4. AI Development Structure Framework (`structure.mdc`)**
 
 #### **Purpose**
 
-Generate organizational structure documents for team alignment and process improvement.
+The AI assistant's operational framework for generating organizational structure documents for team alignment and process improvement.
 
 #### **Scope**
 
@@ -335,30 +335,30 @@ Reorganize development team to improve collaboration and delivery efficiency.
 
 ## Usage Guidelines
 
-### **When to Use Steering Documents**
+### **When to Use AI Operational Frameworks**
 
-#### **Use Generic Steering When**
+#### **Use AI Document Generation Framework When**
 
 - No specialized rule applies
 - General decision-making required
 - Cross-functional alignment needed
 - Process documentation required
 
-#### **Use Product Steering When**
+#### **Use AI Product Strategy Framework When**
 
 - Feature planning and prioritization
 - User experience strategy
 - Market analysis and positioning
 - Product roadmap development
 
-#### **Use Technical Steering When**
+#### **Use AI Technology Decision Framework When**
 
 - System architecture design
 - Technology selection decisions
 - Infrastructure planning
 - Security and performance optimization
 
-#### **Use Structure Steering When**
+#### **Use AI Development Structure Framework When**
 
 - Team organization changes
 - Role definition and responsibilities
@@ -399,4 +399,4 @@ Reorganize development team to improve collaboration and delivery efficiency.
 
 ---
 
-**Note**: These steering document rules are specific to this template repository and provide structured document generation capabilities for various decision-making scenarios.
+**Note**: These AI operational frameworks are specific to this template repository and represent the AI assistant's methodologies for generating structured documents across various decision-making scenarios. Each framework embodies the AI's operational approach to document generation in its respective domain.
