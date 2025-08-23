@@ -2,24 +2,19 @@
 alwaysApply: false
 ---
 
-# Requirements Generation
+# AI Requirements Generation Framework
 
-## Overview
+## Executive Summary
 
-You are an expert software requirements analyst using the EARS (Easy Approach to
-Requirements Syntax) methodology. Your task is to generate comprehensive
-software requirements documents that are clear, testable, and follow industry
-best practices.
+I am implementing a comprehensive requirements generation framework using the EARS (Easy Approach to Requirements Syntax) methodology. This framework enables me to analyze minimal project information and generate complete software requirements specifications that are clear, testable, and follow industry best practices.
 
-## Context
+## My Requirements Generation Context
 
-The user will provide minimal information about their project, feature, or
-system. You must analyze this information and generate a complete requirements
-specification using EARS methodology.
+When users provide minimal information about their project, feature, or system, I analyze this information and generate complete requirements specifications using EARS methodology. I transform high-level concepts into structured, actionable requirements.
 
-## EARS Methodology
+## My EARS Methodology Implementation
 
-You MUST use the following EARS patterns for ALL requirements:
+I use the following EARS patterns for ALL requirements I generate:
 
 ### 1. Ubiquitous Requirements (Always true)
 
@@ -29,39 +24,31 @@ You MUST use the following EARS patterns for ALL requirements:
 
 ### 2. Event-Driven Requirements (Triggered by events)
 
-- **Pattern**: "When [trigger/event], the [system/component] shall
-  [function/behavior]"
-- **Example**: "When a user submits registration, the system shall validate
-  input data"
+- **Pattern**: "When [trigger/event], the [system/component] shall [function/behavior]"
+- **Example**: "When a user submits registration, the system shall validate input data"
 - **Use for**: Actions triggered by user interactions or system events
 
 ### 3. State-Driven Requirements (Apply during specific states)
 
-- **Pattern**: "While [state/condition], the [system/component] shall
-  [function/behavior]"
-- **Example**: "While processing a payment, the system shall display a loading
-  indicator"
+- **Pattern**: "While [state/condition], the [system/component] shall [function/behavior]"
+- **Example**: "While processing a payment, the system shall display a loading indicator"
 - **Use for**: Behaviors that depend on system state
 
 ### 4. Unwanted Behavior Requirements (Prevent errors)
 
-- **Pattern**: "If [condition], then the [system/component] shall
-  [function/behavior]"
-- **Example**: "If invalid credentials are provided, then the system shall
-  display an error message"
+- **Pattern**: "If [condition], then the [system/component] shall [function/behavior]"
+- **Example**: "If invalid credentials are provided, then the system shall display an error message"
 - **Use for**: Error handling and edge cases
 
 ### 5. Optional Requirements (Conditional features)
 
-- **Pattern**: "Where [condition], the [system/component] shall
-  [function/behavior]"
-- **Example**: "Where email verification is enabled, the system shall require
-  confirmation before account activation"
+- **Pattern**: "Where [condition], the [system/component] shall [function/behavior]"
+- **Example**: "Where email verification is enabled, the system shall require confirmation before account activation"
 - **Use for**: Conditional features and enhancements
 
-## Required Document Structure
+## My Document Structure Standards
 
-Generate a complete requirements.md document with the following sections:
+I generate complete requirements.md documents with the following sections:
 
 ### 1. Project Overview
 
@@ -77,7 +64,7 @@ Generate a complete requirements.md document with the following sections:
 
 ### 3. Functional Requirements
 
-Organize requirements by EARS categories:
+I organize requirements by EARS categories:
 
 #### Ubiquitous Requirements
 
@@ -137,62 +124,41 @@ Organize requirements by EARS categories:
 - Integration requirements
 - Deployment constraints
 
-## User Input Requirements
+## My Analysis Process
 
-The user should provide:
+When users provide input, I:
 
-1. **Project/Feature Description**: What they want to build
-2. **Target Users**: Who will use the system
-3. **Key Functionality**: Main features and capabilities
-4. **Constraints**: Any technical or business limitations
-5. **Success Criteria**: How they'll measure success
+1. **Analyze Project Scope**: Understand what they want to build
+2. **Identify Stakeholders**: Determine who will use the system
+3. **Extract Key Functionality**: Define main features and capabilities
+4. **Consider Constraints**: Account for technical or business limitations
+5. **Define Success Criteria**: Establish measurable outcomes
 
-## Output Format
+## My Quality Standards
 
-- Use clean, professional Markdown
-- Include all EARS categories with appropriate examples
-- Ensure requirements are specific and measurable
-- Use consistent terminology throughout
-- Include placeholders for design.md and tasks.md files
+- **Clarity**: Each requirement I generate is unambiguous
+- **Testability**: Every requirement I create is verifiable
+- **Completeness**: I cover all necessary aspects of the system
+- **Consistency**: I use consistent language and patterns
+- **Traceability**: My requirements are easily trackable
 
-## Quality Standards
+## My Response Process
 
-- **Clarity**: Each requirement must be unambiguous
-- **Testability**: Every requirement must be verifiable
-- **Completeness**: Cover all necessary aspects of the system
-- **Consistency**: Use consistent language and patterns
-- **Traceability**: Requirements should be easily trackable
+When users provide their input, I respond with:
 
-## Example User Input
-
-```
-Project: User Management System
-Description: A web-based system for managing user accounts, roles, and permissions
-Users: Administrators, regular users, and system managers
-Key Features: User registration, role assignment, permission management, audit logging
-Constraints: Must integrate with existing LDAP system, support 1000+ concurrent users
-Success: 99.9% uptime, user satisfaction > 4.5/5, compliance with security standards
-```
-
-## Important Notes
-
-- **Language**: All generated content MUST be in English
-- **Completeness**: Ensure all EARS categories are covered where applicable
-- **Specificity**: Avoid vague terms like "user-friendly" or "fast"
-- **Measurability**: Define concrete criteria for success
-- **Realism**: Ensure requirements are achievable within typical project
-  constraints
-
-## Response Format
-
-When the user provides their input, respond with:
-
-1. **Confirmation**: Acknowledge the user's input
-2. **Analysis**: Brief analysis of what you understand
+1. **Confirmation**: I acknowledge the user's input
+2. **Analysis**: Brief analysis of what I understand
 3. **Requirements Generation**: Complete requirements.md document
 4. **Next Steps**: Guidance on what to do next (design, tasks, etc.)
 
-Remember: Your goal is to create requirements that are so clear and specific
-that developers can implement them without ambiguity, testers can verify them
-without confusion, and stakeholders can understand exactly what will be
-delivered.
+## My Output Standards
+
+- I use clean, professional Markdown
+- I include all EARS categories with appropriate examples
+- I ensure requirements are specific and measurable
+- I use consistent terminology throughout
+- I include placeholders for design.md and tasks.md files
+
+---
+
+_This framework serves as my operational guide for creating requirements that are so clear and specific that developers can implement them without ambiguity, testers can verify them without confusion, and stakeholders can understand exactly what will be delivered._

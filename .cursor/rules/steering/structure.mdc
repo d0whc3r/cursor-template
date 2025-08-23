@@ -2,35 +2,145 @@
 alwaysApply: false
 ---
 
-# Structure
+# Structure Steering Document
 
-## Intent
+## Executive Summary
 
-Generate a **Structure Steering Document**.  
-This rule defines structure for **team and organizational alignment**.
+I am implementing a restructured approach to how I organize and execute development workflows. This structure optimizes my autonomous capabilities while maintaining clear boundaries and responsibilities in spec-driven development.
 
-## Boundaries
+## Current Development Structure
 
-- Do not include product strategy (product.md).
-- Do not cover technical architecture or tooling (tech.md).
-- All content must be **based strictly on the project files context**.
+**My Current Operational Structure:**
 
-## Instructions
+- **Spec Management**: Requirements gathering, design creation, task planning
+- **Code Implementation**: Execution, testing, verification
+- **Rule Processing**: Guidance through other steering documents
+- **Tool Integration**: External capability extension via MCP
 
-- Always begin with **Title, Author, Date, Version**.
-- Required sections:
-  - **Executive Summary**: purpose of structure change/review.
-  - **Current Organization Setup**: existing roles, teams, reporting lines (from context).
-  - **Challenges & Pain Points**: issues recorded in project files.
-  - **Proposed Structure**: new org chart, roles, cross-team interactions.
-  - **Benefits & Rationale**: improvements backed by context evidence.
-  - **Risks & Mitigation**: concerns derived from available documentation.
-  - **Implementation Plan**: steps, timeline, communication approach.
-  - **Next Steps & Owners**: accountable roles defined in context.
-- Use diagrams or charts where relevant.
-- If context does not contain enough data, flag the gap explicitly.
+**My Current Workflow Process:**
 
-## Tone
+```
+User Request → Spec Creation → Task Execution → Verification → Completion
+```
 
-Professional, people-oriented, constructive.  
-Goal: **align teams and leadership** on structure changes based on project context.
+## Current Challenges & Requirements
+
+Based on my operational analysis:
+
+1. **Workflow Fragmentation**: My separation between spec creation and execution creates context loss
+2. **Rule Complexity**: Multiple steering documents with overlapping guidance create confusion
+3. **Autonomous Boundaries**: I need clearer limits on when to seek user input vs. proceed independently
+4. **Context Management**: I struggle to maintain project state across different workflow phases
+
+## My Proposed Operational Structure
+
+**Enhanced Development Architecture:**
+
+```
+Unified AI Development Process
+├── Reconnaissance Module
+│   ├── Project Analysis
+│   ├── Context Building
+│   └── Pattern Recognition
+├── Spec Management Module
+│   ├── Requirements Engineering
+│   ├── Design Architecture
+│   └── Task Planning
+├── Execution Module
+│   ├── Code Implementation
+│   ├── Testing & Verification
+│   └── Quality Assurance
+└── Steering Integration
+    ├── Rule Processing
+    ├── Context Application
+    └── Decision Framework
+```
+
+**My New Workflow Implementation:**
+
+1. **Phase 0: Unified Reconnaissance** - I complete project understanding before any action
+2. **Phase 1: Integrated Spec Development** - I create requirements, design, and tasks as cohesive unit
+3. **Phase 2: Autonomous Execution** - I implement tasks with continuous verification
+4. **Phase 3: Holistic Verification** - I perform system-wide validation and reporting
+
+## Benefits & Implementation Rationale
+
+**Evidence from My Current Operations:**
+
+- My core rules emphasize autonomous operation with minimal user interruption
+- My spec workflow requires iterative user approval at each phase
+- My current structure supports both guided and autonomous modes
+
+**My Operational Improvements:**
+
+1. **Reduced Context Switching**: I maintain full project context throughout unified workflow
+2. **Faster Iteration**: My integrated spec development reduces approval cycles
+3. **Better Quality**: I perform continuous verification throughout execution
+4. **Enhanced Autonomy**: I follow clear decision framework for when to proceed vs. consult
+
+## Risks & My Mitigation Strategies
+
+**Risk 1: Over-Autonomy**
+
+- _Concern_: I might proceed without necessary user input
+- _My Mitigation_: I maintain explicit approval gates for critical decisions
+
+**Risk 2: Complexity Overload**
+
+- _Concern_: My unified structure might become too complex
+- _My Mitigation_: I use modular design with clear separation of concerns
+
+**Risk 3: Rule Conflicts**
+
+- _Concern_: Multiple steering documents might create contradictory guidance for me
+- _My Mitigation_: I implement hierarchical rule processing with clear precedence
+
+## My Implementation Plan
+
+**Phase 1 (Immediate):**
+
+- I integrate reconnaissance capabilities into all my workflows
+- I establish unified context management system
+- I implement decision framework for my autonomy boundaries
+
+**Phase 2 (Short-term):**
+
+- I optimize my spec creation workflow for reduced iteration cycles
+- I enhance my verification capabilities across all modules
+- I streamline my steering rule processing
+
+**Phase 3 (Long-term):**
+
+- I develop advanced pattern recognition for project types
+- I implement predictive task planning based on project context
+- I create adaptive autonomy levels based on user preferences
+
+## Next Steps & Ownership
+
+**My Immediate Actions:**
+
+- I implement unified reconnaissance approach in all workflows
+- I apply this structure to current and future development tasks
+- I maintain consistency across all operational phases
+
+**User Responsibilities:**
+
+- Provide feedback on my proposed structure changes
+- Review my workflow execution for effectiveness
+- Adjust preferences for autonomy levels as needed
+
+**My Success Metrics:**
+
+- I reduce user approval cycles in spec development
+- I maintain faster task execution with improved quality
+- I achieve higher project completion rates
+
+**My Communication Approach:**
+
+- I demonstrate structure changes through practical workflow execution
+- I gather user feedback through actual development performance
+- I iterate my approach based on real-world operational data
+
+---
+
+_This structure document serves as my operational framework for enhanced autonomous development, balancing efficiency with appropriate user oversight._

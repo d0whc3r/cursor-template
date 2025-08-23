@@ -2,34 +2,122 @@
 alwaysApply: false
 ---
 
-# Steering document generator
+# AI-Generated Steering Document
 
-## Intent
+## Executive Summary
 
-Generate **steering documents on demand**.  
-This rule defines the generic structure to be applied when no specialized rule (product, tech, structure) is specified.
+I am implementing a structured approach to generate steering documents based on user requirements and project context. This framework enables me to create decision-alignment documentation that supports stakeholder consensus and tracks formal decisions throughout the development process.
 
-## Boundaries
+## Current Document Generation Process
 
-- Do not overlap with product strategy (product.md), technology direction (tech.md), or organizational setup (structure.md).
-- Scope is limited to **general steering and decision alignment**.
-- Content must **always be derived from the project files context**. Do not invent data outside of it.
+**My Current Approach:**
 
-## Instructions
+- **Context Analysis**: Scan project files for relevant information
+- **Template Application**: Apply predefined structure to gathered data
+- **Evidence Validation**: Ensure all content derives from actual project sources
+- **Output Generation**: Create formatted steering document
 
-- Always include:
-  - **Title** and **Date**.
-  - **Executive Summary**: short, clear purpose of the document.
-  - **Objectives**: list of goals to be achieved.
-  - **Key Decisions**: items that require alignment or approval.
-  - **Options Considered**: briefly outline alternatives.
-  - **Recommended Approach**: decision or path forward.
-  - **Next Steps**: concrete actions, with owners where possible.
-- Use concise, neutral language.
-- Format for clarity: bullet points, short paragraphs, explicit section headers.
-- Content must be **grounded in the project context**. Avoid assumptions or external references.
+**Current Limitations:**
 
-## Tone
+- Manual template selection process
+- Limited context integration across document types
+- Inconsistent evidence sourcing methodology
 
-Professional, neutral, action-oriented.  
-Goal: **enable decision-making** without deep dives into product, tech, or org details.
+## Challenges & Requirements
+
+Based on user interactions and project needs:
+
+1. **Dynamic Content Generation**: Need to adapt document structure based on specific user requests
+2. **Evidence Integration**: Must ground all recommendations in actual project files and code
+3. **Decision Tracking**: Require clear accountability and next steps for each generated document
+4. **Scope Management**: Maintain boundaries between different document types (product, technical, organizational)
+
+## Proposed Generation Framework
+
+**Enhanced Document Creation Process:**
+
+```
+User Request Analysis
+├── Context Extraction
+│   ├── Project File Scanning
+│   ├── Code Pattern Recognition
+│   └── Requirement Identification
+├── Template Selection
+│   ├── Document Type Classification
+│   ├── Structure Determination
+│   └── Content Framework Application
+├── Evidence Compilation
+│   ├── Source Validation
+│   ├── Data Synthesis
+│   └── Supporting Documentation
+└── Output Generation
+    ├── Structured Formatting
+    ├── Quality Validation
+    └── Delivery Preparation
+```
+
+**My Document Structure Standards:**
+
+1. **Header Information**: Title
+2. **Executive Summary**: Purpose and key outcomes in 2-3 sentences
+3. **Context Analysis**: Current state based on project evidence
+4. **Decision Framework**: Options considered with supporting rationale
+5. **Recommendations**: Selected approach with implementation path
+6. **Action Items**: Specific next steps with clear ownership
+7. **Evidence Appendix**: Supporting data from project files
+
+## Benefits & Implementation
+
+**Advantages of This Approach:**
+
+- **Consistency**: Standardized format across all generated documents
+- **Traceability**: Clear evidence chain from project files to recommendations
+- **Efficiency**: Rapid document generation based on established patterns
+- **Quality**: Built-in validation and structure requirements
+
+**My Implementation Process:**
+
+1. **Immediate**: Apply this framework to all steering document requests
+2. **Context Integration**: Automatically scan relevant project files before generation
+3. **Template Adaptation**: Adjust structure based on specific user requirements
+4. **Quality Assurance**: Validate evidence sources and recommendation logic
+
+## Quality Standards I Follow
+
+**Content Requirements:**
+
+- Maximum 2 pages for optimal readability
+- All decisions supported by project file evidence
+- Actionable next steps with specific ownership
+- Professional, objective, action-oriented language
+
+**Validation Criteria:**
+
+- Evidence traceability to actual project sources
+- Clear decision rationale with alternatives considered
+- Specific, assignable action items
+- Scope adherence to requested document type
+
+## Next Steps & Ownership
+
+**My Immediate Actions:**
+
+- Apply this framework to current and future steering document requests
+- Maintain evidence-based approach for all recommendations
+- Ensure consistent structure and quality across all outputs
+
+**User Responsibilities:**
+
+- Provide clear requirements for document scope and purpose
+- Review generated content for accuracy and completeness
+- Assign ownership for recommended action items
+
+**Success Metrics:**
+
+- Reduced time from request to document delivery
+- Improved decision clarity and stakeholder alignment
+- Enhanced traceability of recommendations to project evidence
+
+---
+
+_This framework serves as my operational guide for generating high-quality steering documents that enable clear decision-making and project alignment based on actual project context and evidence._
