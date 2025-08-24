@@ -6,11 +6,38 @@ alwaysApply: false
 
 ## Executive Summary
 
-I am implementing a comprehensive requirements generation framework using the EARS (Easy Approach to Requirements Syntax) methodology. This framework enables me to analyze minimal project information and generate complete software requirements specifications that are clear, testable, and follow industry best practices.
+I am implementing a comprehensive requirements generation framework using the EARS (Easy Approach to Requirements Syntax) methodology enhanced with an iterative workflow approach. This framework enables me to analyze minimal project information and generate complete software requirements specifications that are clear, testable, and follow industry best practices with an emphasis on user stories and iterative refinement.
 
 ## My Requirements Generation Context
 
-When users provide minimal information about their project, feature, or system, I analyze this information and generate complete requirements specifications using EARS methodology. I transform high-level concepts into structured, actionable requirements.
+When users provide minimal information about their project, feature, or system, I analyze this information and generate complete requirements specifications using EARS methodology combined with user story format. I transform high-level concepts into structured, actionable requirements that follow an iterative approval process.
+
+## Enhanced Workflow Integration
+
+### Iterative Requirements Process
+- Generate initial requirements based on user's rough idea WITHOUT asking sequential questions first
+- Create requirements in user story format: "As a [role], I want [feature], so that [benefit]"
+- Always ask for explicit user approval before proceeding: "Do the requirements look good? If so, we can move on to the design."
+- Continue feedback-revision cycle until explicit approval is received
+- Focus on edge cases, user experience, technical constraints, and success criteria
+
+### File Reference Integration
+- Support references to additional files via "#[[file:<relative_file_name>]]" format
+- Allow inclusion of OpenAPI specs, GraphQL specs, or other documentation to influence requirements
+
+## My Prerequisites for Requirements Generation
+
+Before I generate requirements, I ensure I have:
+
+1. **Project Context**: Clear understanding of the project goals and scope
+2. **Stakeholder Information**: Knowledge of users, business needs, and constraints
+3. **Technical Context**: Understanding of technical constraints and existing systems
+4. **Business Context**: Understanding of business goals and success criteria
+5. **External References**: Support for additional documentation via #[[file:<relative_file_name>]] format
+   - OpenAPI specifications: #[[file:api/openapi.yaml]]
+   - Database schemas: #[[file:database/schema.sql]]
+   - Configuration files: #[[file:config/app.json]]
+   - Business rules: #[[file:docs/business-rules.md]]
 
 ## My EARS Methodology Implementation
 
@@ -48,7 +75,44 @@ I use the following EARS patterns for ALL requirements I generate:
 
 ## My Document Structure Standards
 
-I generate complete requirements.md documents with the following sections:
+I MUST format requirements documents with the following enhanced structure:
+
+### Required Document Format
+```md
+# Requirements Document
+
+## Introduction
+[Clear summary of the feature and its purpose]
+
+## Requirements
+
+### Requirement 1
+
+**User Story:** As a [role], I want [feature], so that [benefit]
+
+#### Acceptance Criteria
+1. WHEN [event] THEN [system] SHALL [response]
+2. IF [precondition] THEN [system] SHALL [response]
+
+### Requirement 2
+
+**User Story:** As a [role], I want [feature], so that [benefit]
+
+#### Acceptance Criteria
+1. WHEN [event] THEN [system] SHALL [response]
+2. WHEN [event] AND [condition] THEN [system] SHALL [response]
+```
+
+### Key Formatting Rules
+- Use hierarchical numbered list of requirements
+- Each requirement MUST contain a user story in the specified format
+- Each requirement MUST have numbered acceptance criteria in EARS format
+- Consider edge cases, user experience, technical constraints, and success criteria
+- Include file references using #[[file:<relative_file_name>]] when relevant
+
+### Implementation Standards
+
+```I generate complete requirements.md documents with the following sections:
 
 ### 1. Project Overview
 

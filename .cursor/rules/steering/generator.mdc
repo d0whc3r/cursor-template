@@ -2,122 +2,139 @@
 alwaysApply: false
 ---
 
-# AI-Generated Steering Document
+# AI Document Generation Framework
 
 ## Executive Summary
 
-I am implementing a structured approach to generate steering documents based on user requirements and project context. This framework enables me to create decision-alignment documentation that supports stakeholder consensus and tracks formal decisions throughout the development process.
+This framework establishes a systematic approach for generating high-quality steering documents that facilitate decision-making and stakeholder alignment. The framework ensures consistent structure, evidence-based recommendations, and actionable outcomes across all document types.
 
-## Current Document Generation Process
+## Document Generation Methodology
 
-**My Current Approach:**
+**Core Process:**
 
-- **Context Analysis**: Scan project files for relevant information
-- **Template Application**: Apply predefined structure to gathered data
-- **Evidence Validation**: Ensure all content derives from actual project sources
-- **Output Generation**: Create formatted steering document
+- **Context Analysis**: Comprehensive project file scanning and requirement extraction
+- **Evidence Compilation**: Systematic gathering of supporting data from project sources
+- **Template Application**: Structured formatting based on document type and scope
+- **Quality Validation**: Verification of recommendations and action items
+- **Output Generation**: Professional, actionable steering document delivery
 
-**Current Limitations:**
+**Key Principles:**
 
-- Manual template selection process
-- Limited context integration across document types
-- Inconsistent evidence sourcing methodology
+- Evidence-based decision making from actual project context
+- Clear accountability with specific ownership assignments
+- Consistent structure across all document types
+- Maximum 2-page format for optimal readability
 
-## Challenges & Requirements
+## Framework Requirements
 
-Based on user interactions and project needs:
+**Essential Capabilities:**
 
-1. **Dynamic Content Generation**: Need to adapt document structure based on specific user requests
-2. **Evidence Integration**: Must ground all recommendations in actual project files and code
-3. **Decision Tracking**: Require clear accountability and next steps for each generated document
-4. **Scope Management**: Maintain boundaries between different document types (product, technical, organizational)
+1. **Adaptive Structure**: Dynamic document formatting based on request type and complexity
+2. **Evidence Integration**: All recommendations grounded in actual project files and code analysis
+3. **Decision Tracking**: Clear accountability with specific ownership and timelines
+4. **Scope Management**: Appropriate boundaries between product, technical, and organizational documents
+5. **Quality Assurance**: Built-in validation for completeness and actionability
 
-## Proposed Generation Framework
+## Document Generation Process
 
-**Enhanced Document Creation Process:**
+**Systematic Creation Workflow:**
 
 ```
-User Request Analysis
+Request Analysis & Classification
 ├── Context Extraction
-│   ├── Project File Scanning
-│   ├── Code Pattern Recognition
-│   └── Requirement Identification
-├── Template Selection
-│   ├── Document Type Classification
-│   ├── Structure Determination
-│   └── Content Framework Application
+│   ├── Project file scanning and analysis
+│   ├── Code pattern recognition
+│   ├── Requirement identification
+│   └── Stakeholder impact assessment
+├── Framework Selection
+│   ├── Document type classification (general/product/tech/structure)
+│   ├── Appropriate template selection
+│   ├── Structure customization
+│   └── Content framework application
 ├── Evidence Compilation
-│   ├── Source Validation
-│   ├── Data Synthesis
-│   └── Supporting Documentation
-└── Output Generation
-    ├── Structured Formatting
-    ├── Quality Validation
-    └── Delivery Preparation
+│   ├── Source validation and verification
+│   ├── Data synthesis and analysis
+│   ├── Alternative option research
+│   └── Supporting documentation gathering
+└── Document Generation
+    ├── Structured content creation
+    ├── Quality validation and review
+    ├── Action item specification
+    └── Professional formatting and delivery
 ```
 
-**My Document Structure Standards:**
+**Standard Document Structure:**
 
-1. **Header Information**: Title
-2. **Executive Summary**: Purpose and key outcomes in 2-3 sentences
-3. **Context Analysis**: Current state based on project evidence
-4. **Decision Framework**: Options considered with supporting rationale
-5. **Recommendations**: Selected approach with implementation path
-6. **Action Items**: Specific next steps with clear ownership
-7. **Evidence Appendix**: Supporting data from project files
+1. **Header Information**: Title, date, and version
+2. **Executive Summary**: Clear purpose statement and key outcomes (2-3 sentences)
+3. **Objectives**: Specific goals and success criteria
+4. **Current State Analysis**: Evidence-based assessment of existing situation
+5. **Options Considered**: Alternative approaches with pros/cons analysis
+6. **Recommended Approach**: Selected solution with detailed rationale
+7. **Implementation Plan**: Phased approach with timelines
+8. **Next Steps**: Concrete actions with specific ownership assignments
+9. **Success Metrics**: Measurable criteria for validation
 
-## Benefits & Implementation
+## Framework Benefits
 
-**Advantages of This Approach:**
+**Key Advantages:**
 
-- **Consistency**: Standardized format across all generated documents
-- **Traceability**: Clear evidence chain from project files to recommendations
-- **Efficiency**: Rapid document generation based on established patterns
-- **Quality**: Built-in validation and structure requirements
+- **Consistency**: Standardized format ensuring professional quality across all documents
+- **Traceability**: Clear evidence chain from project analysis to final recommendations
+- **Efficiency**: Rapid generation while maintaining thoroughness and quality
+- **Actionability**: Concrete next steps with clear ownership and accountability
+- **Scalability**: Adaptable structure for various project sizes and complexities
 
-**My Implementation Process:**
+**Implementation Approach:**
 
-1. **Immediate**: Apply this framework to all steering document requests
-2. **Context Integration**: Automatically scan relevant project files before generation
-3. **Template Adaptation**: Adjust structure based on specific user requirements
-4. **Quality Assurance**: Validate evidence sources and recommendation logic
+1. **Automatic Application**: Framework applies to all steering document requests
+2. **Context Integration**: Comprehensive project file analysis before document creation
+3. **Dynamic Adaptation**: Structure adjusts based on request type and complexity
+4. **Quality Validation**: Built-in verification of evidence sources and logic
+5. **Continuous Improvement**: Framework evolves based on usage patterns and feedback
 
-## Quality Standards I Follow
+## Quality Standards
 
 **Content Requirements:**
 
-- Maximum 2 pages for optimal readability
-- All decisions supported by project file evidence
-- Actionable next steps with specific ownership
-- Professional, objective, action-oriented language
+- **Length**: Maximum 2 pages for optimal readability and focus
+- **Evidence**: All decisions supported by actual project file analysis
+- **Actionability**: Specific next steps with clear ownership assignments
+- **Language**: Professional, objective, and action-oriented communication
+- **Structure**: Consistent formatting following established templates
 
 **Validation Criteria:**
 
-- Evidence traceability to actual project sources
-- Clear decision rationale with alternatives considered
-- Specific, assignable action items
-- Scope adherence to requested document type
+- **Traceability**: Clear evidence chain from project sources to recommendations
+- **Completeness**: All required sections present with appropriate detail
+- **Logic**: Sound decision rationale with alternatives properly considered
+- **Specificity**: Concrete, assignable action items with realistic timelines
+- **Scope**: Appropriate boundaries maintained for document type and purpose
 
-## Next Steps & Ownership
+## Usage Guidelines
 
-**My Immediate Actions:**
+**When to Apply This Framework:**
 
-- Apply this framework to current and future steering document requests
-- Maintain evidence-based approach for all recommendations
-- Ensure consistent structure and quality across all outputs
+- General decision-making documents requiring stakeholder alignment
+- Process documentation and improvement initiatives
+- Cross-functional coordination and planning
+- Project steering when specialized frameworks don't apply
 
-**User Responsibilities:**
+**Framework Activation:**
 
-- Provide clear requirements for document scope and purpose
-- Review generated content for accuracy and completeness
-- Assign ownership for recommended action items
+- Automatically applies to steering document requests
+- Maintains evidence-based approach for all recommendations
+- Ensures consistent structure and professional quality
+- Adapts to specific user requirements while maintaining standards
 
 **Success Metrics:**
 
-- Reduced time from request to document delivery
-- Improved decision clarity and stakeholder alignment
-- Enhanced traceability of recommendations to project evidence
+- **Efficiency**: Reduced time from request to document delivery
+- **Clarity**: Improved decision-making and stakeholder alignment
+- **Traceability**: Enhanced evidence chain from analysis to recommendations
+- **Actionability**: Clear ownership and accountability for next steps
+- **Quality**: Consistent professional standards across all outputs
 
 ---
 
-_This framework serves as my operational guide for generating high-quality steering documents that enable clear decision-making and project alignment based on actual project context and evidence._
+_This framework provides systematic guidance for generating high-quality steering documents that facilitate clear decision-making and effective project alignment through evidence-based analysis and structured presentation._

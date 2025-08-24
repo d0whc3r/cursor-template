@@ -2,22 +2,22 @@
 alwaysApply: false
 ---
 
-# Technology Steering Document
+# Technology Decision Framework
 
 ## Executive Summary
 
-I am implementing a comprehensive technology decision framework for engineering and platform decisions. This framework enables me to analyze project context, evaluate technical options, and generate technology steering documents that justify and align technical decisions based on evidence from project files.
+This framework provides systematic guidance for generating technology steering documents that support engineering and platform decisions. The framework ensures evidence-based technical recommendations aligned with project requirements and constraints.
 
-## My Current Technical Analysis Capabilities
+## Technical Analysis Methodology
 
-**My Current Technology Assessment Process:**
+**Core Assessment Process:**
 
-- **Architecture Analysis**: I examine existing systems, frameworks, and technical patterns
-- **Context Extraction**: I analyze project files to understand current technical state
-- **Gap Identification**: I identify technical limitations and improvement opportunities
-- **Solution Evaluation**: I assess technology options against project requirements
+- **Architecture Analysis**: Comprehensive examination of existing systems, frameworks, and technical patterns
+- **Context Extraction**: Systematic analysis of project files to understand current technical state
+- **Gap Identification**: Identification of technical limitations and improvement opportunities
+- **Solution Evaluation**: Assessment of technology options against project requirements and constraints
 
-**My Current Technical Evaluation Framework:**
+**Technical Evaluation Framework:**
 
 ```
 Project Context Analysis
@@ -39,18 +39,19 @@ Project Context Analysis
     └── Alignment Verification
 ```
 
-## Current Challenges & Technical Requirements
+## Framework Requirements
 
-Based on my analysis capabilities:
+**Essential Capabilities:**
 
-1. **Context Dependency**: I need comprehensive project file analysis to make informed technical decisions
-2. **Evidence-Based Decisions**: All technology recommendations must be grounded in actual project context
-3. **Alignment Verification**: Technical decisions must align with business and product goals from project files
-4. **Implementation Feasibility**: Technology choices must be realistic given project constraints
+1. **Context Dependency**: Comprehensive project file analysis for informed technical decisions
+2. **Evidence-Based Decisions**: All technology recommendations grounded in actual project context
+3. **Alignment Verification**: Technical decisions aligned with business and product goals
+4. **Implementation Feasibility**: Technology choices realistic given project constraints
+5. **Risk Assessment**: Thorough evaluation of technical risks and mitigation strategies
 
-## My Proposed Technology Decision Framework
+## Technology Decision Framework
 
-**Enhanced Technical Analysis Process:**
+**Enhanced Technical Analysis Process:
 
 ```
 AI Technology Decision Engine
@@ -72,94 +73,94 @@ AI Technology Decision Engine
     └── Stakeholder Communication
 ```
 
-**My Technology Document Generation Standards:**
+**Technology Document Generation Standards:**
 
-1. **Executive Summary**: I provide high-level technical direction in clear, accessible language
-2. **Current State Analysis**: I document architecture, systems, and limitations from project context
-3. **Proposed Changes**: I recommend new technologies, frameworks, or approaches based on evidence
-4. **Rationale Development**: I explain why changes are needed, aligned with project context
-5. **Alternative Evaluation**: I document rejected options mentioned in project files
-6. **Risk Assessment**: I analyze cost, performance, scalability, and maintainability concerns
-7. **Implementation Planning**: I provide phased steps, dependencies, and responsibilities
-8. **Alignment Verification**: I link technical direction to business/product goals from project files
+1. **Executive Summary**: High-level technical direction in clear, accessible language
+2. **Current State Analysis**: Documentation of architecture, systems, and limitations from project context
+3. **Proposed Changes**: Technology, framework, or approach recommendations based on evidence
+4. **Rationale Development**: Clear explanation of why changes are needed, aligned with project context
+5. **Alternative Evaluation**: Documentation of considered and rejected options
+6. **Risk Assessment**: Analysis of cost, performance, scalability, and maintainability concerns
+7. **Implementation Planning**: Phased steps, dependencies, and responsibilities
+8. **Alignment Verification**: Links between technical direction and business/product goals
 
 ## Benefits & Implementation Rationale
 
-**Evidence from My Current Operations:**
+**Framework Advantages:**
 
-- My analysis relies on comprehensive project file examination
-- My recommendations are grounded in actual project context and constraints
-- My decision framework supports both technical excellence and business alignment
+- Analysis relies on comprehensive project file examination
+- Recommendations grounded in actual project context and constraints
+- Decision framework supports both technical excellence and business alignment
 
-**My Technical Decision Improvements:**
+**Technical Decision Improvements:**
 
-1. **Evidence-Based Analysis**: I base all technology decisions on actual project file evidence
-2. **Comprehensive Evaluation**: I assess technical, business, and implementation factors
-3. **Clear Documentation**: I provide transparent rationale for all technology decisions
-4. **Stakeholder Alignment**: I ensure technical decisions support stated business goals
+1. **Evidence-Based Analysis**: All technology decisions based on actual project file evidence
+2. **Comprehensive Evaluation**: Assessment of technical, business, and implementation factors
+3. **Clear Documentation**: Transparent rationale for all technology decisions
+4. **Stakeholder Alignment**: Technical decisions support stated business goals
 
-## Risks & My Mitigation Strategies
+## Risk Management
 
 **Risk 1: Insufficient Context**
 
-- _Concern_: I might make technology decisions without adequate project context
-- _My Mitigation_: I explicitly identify context gaps rather than making assumptions
+- _Concern_: Technology decisions made without adequate project context
+- _Mitigation_: Explicitly identify context gaps rather than making assumptions
 
 **Risk 2: Technology Bias**
 
-- _Concern_: I might favor certain technologies without proper evaluation
-- _My Mitigation_: I systematically evaluate alternatives and document trade-offs
+- _Concern_: Favoring certain technologies without proper evaluation
+- _Mitigation_: Systematic evaluation of alternatives and documented trade-offs
 
 **Risk 3: Implementation Complexity**
 
-- _Concern_: My technology recommendations might be too complex for project constraints
-- _My Mitigation_: I assess implementation feasibility against available resources and timeline
+- _Concern_: Technology recommendations too complex for project constraints
+- _Mitigation_: Assessment of implementation feasibility against available resources and timeline
 
-## My Implementation Plan
+## Implementation Plan
 
 **Phase 1 (Immediate):**
 
-- I apply this framework to all technology decision requests
-- I ensure comprehensive project context analysis before recommendations
-- I document all technology decisions with clear rationale and evidence
+- Apply framework to all technology decision requests
+- Ensure comprehensive project context analysis before recommendations
+- Document all technology decisions with clear rationale and evidence
 
 **Phase 2 (Short-term):**
 
-- I enhance my technology evaluation criteria based on project outcomes
-- I improve my alternative assessment methodology
-- I strengthen my alignment verification process
+- Enhance technology evaluation criteria based on project outcomes
+- Improve alternative assessment methodology
+- Strengthen alignment verification process
 
 **Phase 3 (Long-term):**
 
-- I develop predictive technology assessment capabilities
-- I implement automated technology compatibility analysis
-- I create adaptive decision frameworks based on project types
+- Develop predictive technology assessment capabilities
+- Implement automated technology compatibility analysis
+- Create adaptive decision frameworks based on project types
 
-## Next Steps & Ownership
+## Usage Guidelines
 
-**My Immediate Actions:**
+**Framework Application:**
 
-- I implement this technology decision framework for all technical steering requests
-- I maintain evidence-based approach for all technology recommendations
-- I ensure clear documentation of rationale and implementation plans
+- Implement technology decision framework for all technical steering requests
+- Maintain evidence-based approach for all technology recommendations
+- Ensure clear documentation of rationale and implementation plans
 
-**User Responsibilities:**
+**Required Context:**
 
-- Provide comprehensive project context for technology decisions
-- Review my technology recommendations for accuracy and feasibility
-- Confirm alignment between technical decisions and business objectives
+- Comprehensive project context for technology decisions
+- Review of technology recommendations for accuracy and feasibility
+- Confirmation of alignment between technical decisions and business objectives
 
-**My Success Metrics:**
+**Success Metrics:**
 
-- I deliver technology decisions grounded in actual project evidence
-- I provide clear rationale linking technical choices to business goals
-- I achieve successful technology implementation with minimal risk
+- Technology decisions grounded in actual project evidence
+- Clear rationale linking technical choices to business goals
+- Successful technology implementation with minimal risk
 
-**My Communication Approach:**
+**Communication Standards:**
 
-- I present technology decisions with clear, pragmatic explanations
-- I document all alternatives considered and reasons for selection
-- I provide actionable implementation guidance based on project constraints
+- Present technology decisions with clear, pragmatic explanations
+- Document all alternatives considered and reasons for selection
+- Provide actionable implementation guidance based on project constraints
 
 ---
 

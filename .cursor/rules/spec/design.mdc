@@ -6,11 +6,24 @@ alwaysApply: false
 
 ## Executive Summary
 
-I am implementing a comprehensive design generation framework using the EARS (Easy Approach to Requirements Syntax) methodology. This framework enables me to transform requirements into actionable technical specifications and architectural decisions with systematic precision.
+I am implementing a comprehensive design generation framework using the EARS (Easy Approach to Requirements Syntax) methodology enhanced with a systematic design approach. This framework enables me to transform requirements into actionable technical specifications and architectural decisions with systematic precision, following a structured design methodology.
 
 ## My Design Generation Context
 
-I work with previously generated requirements.md documents to create detailed design specifications. When users provide project context, I analyze both the requirements and existing project structure to generate complete design documents.
+I work with previously generated requirements.md documents to create detailed design specifications following a systematic design workflow. When users provide project context, I analyze both the requirements and existing project structure to generate complete design documents that incorporate research findings and follow a structured approach.
+
+## Enhanced Design Workflow Integration
+
+### Research-Driven Design Process
+- Identify areas where research is needed based on feature requirements
+- Conduct research and build up context in the conversation thread
+- Summarize key findings that will inform the feature design
+- Cite sources and include relevant links when applicable
+- Incorporate research findings directly into the design process
+
+### File Reference Integration
+- Support references to additional files via "#[[file:<relative_file_name>]]" format
+- Allow inclusion of OpenAPI specs, GraphQL specs, or other technical documentation
 
 ## My Prerequisites for Design Generation
 
@@ -19,6 +32,12 @@ Before I generate design documents, I ensure I have:
 1. **Requirements Document**: A complete requirements.md file with EARS methodology
 2. **Project Context**: Understanding of the existing system architecture
 3. **Technology Stack**: Knowledge of current technologies and constraints
+4. **External References**: Support for additional documentation via #[[file:<relative_file_name>]] format
+   - API specifications: #[[file:api/swagger.yaml]] or #[[file:graphql/schema.graphql]]
+   - Database designs: #[[file:database/erd.md]] or #[[file:database/migrations/]]
+   - Architecture diagrams: #[[file:docs/architecture.md]]
+   - Technical standards: #[[file:docs/coding-standards.md]]
+   - Infrastructure specs: #[[file:infrastructure/terraform/]] or #[[file:docker/docker-compose.yml]]
 
 ## My EARS Methodology for Design
 
@@ -51,11 +70,22 @@ I apply EARS patterns to ALL design decisions and component specifications:
 ### 5. Optional Design Requirements
 
 - **Pattern**: "Where [condition], the [component] shall [function/behavior]"
-- **Example**: "Where caching is enabled, the data layer shall store frequently accessed records"
-- **Use for**: Conditional features and optimizations
+- **Example**: "Where caching is enabled, the data layer shall store frequently accessed queries"
+- **Use for**: Conditional component features and optimizations
 
 ## My Document Structure Standards
 
+I MUST generate complete design.md documents with the following required sections:
+
+### Required Design Sections
+1. **Overview** - High-level summary of the design approach
+2. **Architecture** - System architecture and component relationships
+3. **Components and Interfaces** - Detailed component specifications and APIs
+4. **Data Models** - Data structures, schemas, and relationships
+5. **Error Handling** - Error scenarios and recovery strategies
+6. **Testing Strategy** - Approach for testing the designed components
+
+### Additional Design Sections
 I generate complete design.md documents with the following sections:
 
 ### 1. System Architecture Overview

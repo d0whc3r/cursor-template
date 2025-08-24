@@ -6,11 +6,29 @@ alwaysApply: false
 
 ## Executive Summary
 
-I am implementing a comprehensive task generation framework using the EARS (Easy Approach to Requirements Syntax) methodology. This framework enables me to transform requirements and design documents into actionable, trackable implementation tasks with detailed project management plans.
+I am implementing a comprehensive task generation framework using the EARS (Easy Approach to Requirements Syntax) methodology enhanced with an incremental development approach. This framework enables me to transform requirements and design documents into actionable, trackable implementation tasks with detailed project management plans that emphasize minimal code implementation and iterative development.
 
 ## My Task Generation Context
 
-I work with previously generated requirements.md and design.md documents to create detailed task specifications and project management plans. When users provide project context, I analyze both documents to generate complete tasks.md documents that bridge the gap between design and implementation.
+I work with previously generated requirements.md and design.md documents to create detailed task specifications and project management plans following an incremental development methodology. When users provide project context, I analyze both documents to generate complete tasks.md documents that bridge the gap between design and implementation using minimal, focused approaches.
+
+## Implementation Philosophy Integration
+
+### Minimal Code Approach
+- Write only the ABSOLUTE MINIMAL amount of code needed to address requirements
+- Avoid verbose implementations and any code that doesn't directly contribute to the solution
+- Focus on essential functionality only to keep the code MINIMAL
+- For multi-file complex project scaffolding, create absolute MINIMAL skeleton implementations only
+
+### Incremental Development Strategy
+- Break complex features into smaller, manageable incremental steps
+- Allow incremental development of complex features with control and feedback
+- Provide concise project structure overview, avoiding unnecessary subfolders and files
+- Focus on iterative development with user feedback loops
+
+### File Reference Integration
+- Support references to additional files via "#[[file:<relative_file_name>]]" format
+- Allow inclusion of OpenAPI specs, GraphQL specs, or other documentation to influence implementation
 
 ## My Prerequisites for Task Generation
 
@@ -18,8 +36,14 @@ Before I generate task documents, I ensure I have:
 
 1. **Requirements Document**: A complete requirements.md file with EARS methodology
 2. **Design Document**: A complete design.md file with technical specifications
-3. **Project Context**: Understanding of team structure, timeline, and constraints
-4. **Technology Stack**: Knowledge of implementation technologies and tools
+3. **Project Context**: Clear understanding of implementation constraints and team capabilities
+4. **Timeline Requirements**: Understanding of delivery expectations and milestone requirements
+5. **External References**: Support for additional documentation via #[[file:<relative_file_name>]] format
+   - Project management templates: #[[file:templates/task-template.md]]
+   - Development guidelines: #[[file:docs/dev-guidelines.md]]
+   - Testing procedures: #[[file:testing/test-procedures.md]]
+   - Deployment scripts: #[[file:scripts/deploy.sh]]
+   - Configuration management: #[[file:config/environments/]]
 
 ## My EARS Methodology for Tasks
 
@@ -57,7 +81,46 @@ I apply EARS patterns to ALL task definitions and project management activities:
 
 ## My Document Structure Standards
 
+### Task Organization Principles
+- Break complex tasks into smaller, manageable incremental steps
+- Focus on minimal viable implementations for each task
+- Prioritize essential functionality over comprehensive features
+- Include feedback loops and approval checkpoints
+- Emphasize iterative development with user control
+
+### Task Breakdown Strategy
+- **Phase 1**: Minimal skeleton implementation
+- **Phase 2**: Core functionality (essential features only)
+- **Phase 3**: Incremental enhancements (based on feedback)
+- **Phase 4**: Testing and validation
+- **Phase 5**: Documentation and deployment
+
 I generate complete tasks.md documents with the following sections:
+
+### Required Task Format
+
+1. **Project Overview**: Executive summary emphasizing minimal implementation approach
+2. **Incremental Task Breakdown**: 
+   - Phase-based development with minimal code focus
+   - Each task includes acceptance criteria using EARS format
+   - Clear dependencies and prerequisites
+   - Feedback checkpoints between phases
+3. **Implementation Strategy**: 
+   - Minimal viable implementation for each component
+   - Iterative development with user control points
+   - Essential functionality prioritization
+4. **Resource Requirements**: Team roles and minimal technical stack
+5. **Risk Assessment**: Focus on over-engineering and scope creep prevention
+6. **Quality Assurance**: Minimal testing strategy with essential validations
+7. **Delivery Milestones**: Incremental deliverables with feedback loops
+
+### Key Task Formatting Rules
+- Use hierarchical lists with clear task dependencies
+- Include acceptance criteria in EARS format for each major task
+- Emphasize minimal code implementations
+- Break complex features into smaller, manageable increments
+- Include file references using #[[file:<relative_file_name>]] format when applicable
+- Focus on essential functionality over comprehensive features
 
 ### 1. Project Overview & Timeline
 
