@@ -31,6 +31,12 @@ Cursor Rules are `.mdc` files that define AI behavior patterns in Cursor IDE. Th
 - **Scope**: Product strategy, technical architecture, organizational structure
 - **Behavior**: Template-based document generation
 
+### 5. **Verification Protocols** (`testing.mdc`)
+
+- **Purpose**: Define protocols for testing and quality assurance
+- **Scope**: Automated testing, manual verification, quality gates
+- **Behavior**: Ensures code quality and adherence to standards
+
 ## How Rules Work
 
 ### **Rule Hierarchy**
@@ -42,7 +48,8 @@ core.mdc (Always Applied)
 ├── request.mdc (Conditional)
 ├── refresh.mdc (Conditional)
 ├── retro.mdc (Conditional)
-└── steering/*.mdc (Conditional)
+├── steering/*.mdc (Conditional)
+└── testing.mdc (Conditional)
 ```
 
 ### **Rule Application**

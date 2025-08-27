@@ -17,7 +17,8 @@ A **GitHub template repository** that provides standardized AI development rules
 │   ├── request.mdc           # Standard task execution protocol
 │   ├── refresh.mdc           # Deep bug diagnosis protocol
 │   ├── retro.mdc             # Post-session retrospective protocol
-│   └── steering/             # AI operational frameworks for document generation
+│   ├── steering/             # AI operational frameworks for document generation
+│   └── testing.mdc           # Verification protocols and quality assurance
 │       ├── generator.mdc     # AI document generation framework
 │       ├── product.mdc       # AI product strategy framework
 │       ├── structure.mdc     # AI development structure framework
